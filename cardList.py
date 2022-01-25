@@ -1,476 +1,473 @@
-ace_hearts = str(""" 
- ---
-|♥  |
-| A |
-|  ♥|
- ---
-  
-""") 
 
-two_hearts = str(""" 
- ---
-|♥  |
-| 2 |
-|  ♥|
- ---
-  
-""") 
-
-three_hearts = str(""" 
- ---
-|♥  |
-| 3 |
-|  ♥|
- ---
-  
-""") 
-
-four_hearts = str(""" 
- ---
-|♥  |
-| 4 |
-|  ♥|
- ---
-  
-""") 
-
-five_hearts = str(""" 
- ---
-|♥  |
-| 5 |
-|  ♥|
- ---
-  
-""") 
-
-six_hearts = str(""" 
- ---
-|♥  |
-| 6 |
-|  ♥|
- ---
-  
-""") 
-
-seven_hearts = str(""" 
- ---
-|♥  |
-| 7 |
-|  ♥|
- ---
-  
- """) 
-
-eight_hearts = str(""" 
- ---
-|♥  |
-| 8 |
-|  ♥|
- ---
-
-""") 
-
-nine_hearts = str(""" 
- ---
-|♥  |
-| 9 |
-|  ♥|
- ---
-  
-""") 
-
-ten_hearts = str(""" 
- ---
-|♥  |
-|1 0|
-|  ♥|
- ---
-  
- """) 
-
-jack_hearts = str(""" 
-  ---
-|♥  |
-| J |
-|  ♥|
- ---
-  
-""") 
-
-queen_hearts = str(""" 
- ---
-|♥  |
-| Q |
-|  ♥|
- ---
-
-""") 
-
-king_hearts = str(""" 
- ---
-|♥  |
-| K |
-|  ♥|
- ---
-  
-""") 
-
-print("Hearts Loaded")
- 
-
-ace_diamonds = str(""" 
- ---
-|♦  |
-| A |
-|  ♦|
- ---
-  
- """) 
-
-two_diamonds = str(""" 
- ---
-|♦  |
-| 2 |
-|  ♦|
- ---
-  
-""") 
-
-three_diamonds = str(""" 
- ---
-|♦  |
-| 3 |
-|  ♦|
- ---
-  
-""") 
-
-four_diamonds = str(""" 
- ---
-|♦  |
-| 4 |
-|  ♦|
- ---
-  
-""") 
-
-five_diamonds = str(""" 
- ---
-|♦  |
-| 5 |
-|  ♦|
- ---
-  
-""") 
-
-six_diamonds = str(""" 
- ---
-|♦  |
-| 6 |
-|  ♦|
- ---
-  
-""") 
-
-seven_diamonds = str(""" 
- ---
-|♦  |
-| 7 |
-|  ♦|
----
-  
+def loadCards():
+    cards = {
+    ace_hearts : str(""" 
+     ---
+    |♥  |
+    | A |
+    |  ♥|
+     ---
+      
     """) 
 
-eight_diamonds = str(""" 
- ---
-|♦  |
-| 8 |
-|  ♦|
- ---
-  
-""") 
+    two_hearts : str(""" 
+     ---
+    |♥  |
+    | 2 |
+    |  ♥|
+     ---
+      
+    """) 
 
-nine_diamonds = str(""" 
- ---
-|♦  |
-| 9 |
-|  ♦|
- ---
+    three_hearts : str(""" 
+     ---
+    |♥  |
+    | 3 |
+    |  ♥|
+     ---
+      
+    """) 
 
- """) 
+    four_hearts : str(""" 
+     ---
+    |♥  |
+    | 4 |
+    |  ♥|
+     ---
+      
+    """) 
 
-ten_diamonds = str(""" 
- ---
-|♦  |
-|1 0|
-|  ♦|
- ---
-  
-""") 
+    five_hearts : str(""" 
+     ---
+    |♥  |
+    | 5 |
+    |  ♥|
+     ---
+      
+    """) 
 
-jack_diamonds = str(""" 
- ---
-|♦  |
-| J |
-|  ♦|
- ---
-  
-""") 
+    six_hearts : str(""" 
+     ---
+    |♥  |
+    | 6 |
+    |  ♥|
+     ---
+      
+    """) 
 
-queen_diamonds = str(""" 
- ---
-|♦  |
-| Q |
-|  ♦|
- ---
+    seven_hearts : str(""" 
+     ---
+    |♥  |
+    | 7 |
+    |  ♥|
+     ---
+      
+     """) 
 
-""") 
+    eight_hearts : str(""" 
+     ---
+    |♥  |
+    | 8 |
+    |  ♥|
+     ---
 
-king_diamonds = str(""" 
- ---
-|♦  |
-| K |
-|  ♦|
- ---
-  
-""") 
+    """) 
 
-print("Diamonds Loaded")
+    nine_hearts : str(""" 
+     ---
+    |♥  |
+    | 9 |
+    |  ♥|
+     ---
+      
+    """) 
 
-ace_clubs = str(""" 
- ---
-|♣  |
-| A |
-|  ♣|
- ---
-  
-""") 
+    ten_hearts : str(""" 
+     ---
+    |♥  |
+    |1 0|
+    |  ♥|
+     ---
+      
+     """) 
 
-two_clubs = str(""" 
- ---
-|♣  |
-| 2 |
-|  ♣|
- ---
+    jack_hearts : str(""" 
+      ---
+    |♥  |
+    | J |
+    |  ♥|
+     ---
+      
+    """) 
 
-""") 
+    queen_hearts : str(""" 
+     ---
+    |♥  |
+    | Q |
+    |  ♥|
+     ---
 
-three_clubs = str(""" 
- ---
-|♣  |
-| 3 |
-|  ♣|
- ---
-  
-""") 
+    """) 
 
-four_clubs = str(""" 
- ---
-|♣  |
-| 4 |
-|  ♣|
- ---
-  
-""") 
+    king_hearts : str(""" 
+     ---
+    |♥  |
+    | K |
+    |  ♥|
+     ---
+      
+    """) 
+     
+    ace_diamonds : str(""" 
+     ---
+    |♦  |
+    | A |
+    |  ♦|
+     ---
+      
+     """) 
 
-five_clubs = str(""" 
- ---
-|♣  |
-| 5 |
-|  ♣|
- ---
-  
-""") 
+    two_diamonds : str(""" 
+     ---
+    |♦  |
+    | 2 |
+    |  ♦|
+     ---
+      
+    """) 
 
-six_clubs = str(""" 
- ---
-|♣  |
-| 6 |
-|  ♣|
- ---
-  
- """) 
+    three_diamonds : str(""" 
+     ---
+    |♦  |
+    | 3 |
+    |  ♦|
+     ---
+      
+    """) 
 
-seven_clubs = str("""
- --- 
-|♣  |
-| 7 |
-|  ♣|
- ---
-  
-""") 
+    four_diamonds : str(""" 
+     ---
+    |♦  |
+    | 4 |
+    |  ♦|
+     ---
+      
+    """) 
 
-eight_clubs = str(""" 
- ---
-|♣  |
-| 8 |
-|  ♣|
- ---
+    five_diamonds : str(""" 
+     ---
+    |♦  |
+    | 5 |
+    |  ♦|
+     ---
+      
+    """) 
 
-""") 
+    six_diamonds : str(""" 
+     ---
+    |♦  |
+    | 6 |
+    |  ♦|
+     ---
+      
+    """) 
 
-nine_clubs = str(""" 
- ---
-|♣  |
-| 9 |
-|  ♣|
- ---
-  
-""") 
+    seven_diamonds : str(""" 
+     ---
+    |♦  |
+    | 7 |
+    |  ♦|
+    ---
+      
+        """) 
 
-ten_clubs = str(""" 
- ---
-|♣  |
-|1 0|
-|  ♣|
- ---
-  
-""") 
+    eight_diamonds : str(""" 
+     ---
+    |♦  |
+    | 8 |
+    |  ♦|
+     ---
+      
+    """) 
 
-jack_clubs = str(""" 
- ---
-|♣  |
-| J |
-|  ♣|
- ---
-  
-""") 
+    nine_diamonds : str(""" 
+     ---
+    |♦  |
+    | 9 |
+    |  ♦|
+     ---
 
-queen_clubs = str(""" 
- ---
-|♣  |
-| Q |
-|  ♣|
- ---
-  
-""") 
+     """) 
 
-king_clubs = str(""" 
- ---
-|♣  |
-| K |
-|  ♣|
----
-  
-""") 
+    ten_diamonds : str(""" 
+     ---
+    |♦  |
+    |1 0|
+    |  ♦|
+     ---
+      
+    """) 
 
-print("Clubs Loaded")
- 
-ace_spades = str(""" 
- ---
-|♠  |
-| A |
-|  ♠|
- ---
-  
-""") 
+    jack_diamonds : str(""" 
+     ---
+    |♦  |
+    | J |
+    |  ♦|
+     ---
+      
+    """) 
 
-two_spades = str(""" 
- ---
-|♠  |
-| 2 |
-|  ♠|
- ---
+    queen_diamonds : str(""" 
+     ---
+    |♦  |
+    | Q |
+    |  ♦|
+     ---
 
-""") 
+    """) 
 
-three_spades = str(""" 
- ---
-|♠  |
-| 3 |
-|  ♠|
- ---
-  
-""") 
+    king_diamonds : str(""" 
+     ---
+    |♦  |
+    | K |
+    |  ♦|
+     ---
+      
+    """) 
 
-four_spades = str(""" 
- ---
-|♠  |
-| 4 |
-|  ♠|
- ---
-  
-""") 
+    ace_clubs : str(""" 
+     ---
+    |♣  |
+    | A |
+    |  ♣|
+     ---
+      
+    """) 
 
-five_spades = str(""" 
- ---
-|♠  |
-| 5 |
-|  ♠|
- ---
-  
-""") 
+    two_clubs : str(""" 
+     ---
+    |♣  |
+    | 2 |
+    |  ♣|
+     ---
 
-six_spades = str(""" 
- ---
-|♠  |
-| 6 |
-|  ♠|
- ---
-  
- """) 
+    """) 
 
-seven_spades = str("""
- --- 
-|♠  |
-| 7 |
-|  ♠|
- ---
-  
-""") 
+    three_clubs : str(""" 
+     ---
+    |♣  |
+    | 3 |
+    |  ♣|
+     ---
+      
+    """) 
 
-eight_spades = str(""" 
- ---
-|♠  |
-| 8 |
-|  ♠|
- ---
+    four_clubs : str(""" 
+     ---
+    |♣  |
+    | 4 |
+    |  ♣|
+     ---
+      
+    """) 
 
-""") 
+    five_clubs : str(""" 
+     ---
+    |♣  |
+    | 5 |
+    |  ♣|
+     ---
+      
+    """) 
 
-nine_spades = str(""" 
- ---
-|♠  |
-| 9 |
-|  ♠|
- ---
-  
-""") 
+    six_clubs : str(""" 
+     ---
+    |♣  |
+    | 6 |
+    |  ♣|
+     ---
+      
+     """) 
 
-ten_spades = str(""" 
- ---
-|♠  |
-|1 0|
-|  ♠|
- ---
-  
-""") 
+    seven_clubs : str("""
+     --- 
+    |♣  |
+    | 7 |
+    |  ♣|
+     ---
+      
+    """) 
 
-jack_spades = str(""" 
- ---
-|♠  |
-| J |
-|  ♠|
- ---
-  
-""") 
+    eight_clubs : str(""" 
+     ---
+    |♣  |
+    | 8 |
+    |  ♣|
+     ---
 
-queen_spades = str(""" 
- ---
-|♠  |
-| Q |
-|  ♠|
- ---
-  
-""") 
+    """) 
 
-king_spades = str(""" 
- ---
-|♠  |
-| K |
-|  ♠|
----
-  
-""") 
+    nine_clubs : str(""" 
+     ---
+    |♣  |
+    | 9 |
+    |  ♣|
+     ---
+      
+    """) 
 
-print("Spades Loaded")
+    ten_clubs : str(""" 
+     ---
+    |♣  |
+    |1 0|
+    |  ♣|
+     ---
+      
+    """) 
+
+    jack_clubs : str(""" 
+     ---
+    |♣  |
+    | J |
+    |  ♣|
+     ---
+      
+    """) 
+
+    queen_clubs : str(""" 
+     ---
+    |♣  |
+    | Q |
+    |  ♣|
+     ---
+      
+    """) 
+
+    king_clubs : str(""" 
+     ---
+    |♣  |
+    | K |
+    |  ♣|
+    ---
+      
+    """) 
+     
+    ace_spades : str(""" 
+     ---
+    |♠  |
+    | A |
+    |  ♠|
+     ---
+      
+    """) 
+
+    two_spades : str(""" 
+     ---
+    |♠  |
+    | 2 |
+    |  ♠|
+     ---
+
+    """) 
+
+    three_spades : str(""" 
+     ---
+    |♠  |
+    | 3 |
+    |  ♠|
+     ---
+      
+    """) 
+
+    four_spades : str(""" 
+     ---
+    |♠  |
+    | 4 |
+    |  ♠|
+     ---
+      
+    """) 
+
+    five_spades : str(""" 
+     ---
+    |♠  |
+    | 5 |
+    |  ♠|
+     ---
+      
+    """) 
+
+    six_spades : str(""" 
+     ---
+    |♠  |
+    | 6 |
+    |  ♠|
+     ---
+      
+     """) 
+
+    seven_spades : str("""
+     --- 
+    |♠  |
+    | 7 |
+    |  ♠|
+     ---
+      
+    """) 
+
+    eight_spades : str(""" 
+     ---
+    |♠  |
+    | 8 |
+    |  ♠|
+     ---
+
+    """) 
+
+    nine_spades : str(""" 
+     ---
+    |♠  |
+    | 9 |
+    |  ♠|
+     ---
+      
+    """) 
+
+    ten_spades : str(""" 
+     ---
+    |♠  |
+    |1 0|
+    |  ♠|
+     ---
+      
+    """) 
+
+    jack_spades : str(""" 
+     ---
+    |♠  |
+    | J |
+    |  ♠|
+     ---
+      
+    """) 
+
+    queen_spades : str(""" 
+     ---
+    |♠  |
+    | Q |
+    |  ♠|
+     ---
+      
+    """) 
+
+    king_spades : str(""" 
+     ---
+    |♠  |
+    | K |
+    |  ♠|
+    ---
+      
+    """)
+    }
+
+    print("Cards Loaded")
